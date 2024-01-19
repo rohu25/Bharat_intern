@@ -1,0 +1,372 @@
+*{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alegreya SC';
+}
+
+body {
+    background: whitesmoke;
+}
+
+.navbar {
+    height: 80px;
+    background-color: orange;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.navbar-img {
+    padding-right: 750px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 3px solid orangered;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(185, 185, 185, 0.2);
+    border-radius: 50px;
+}
+
+.pic {
+    border-bottom: 3px solid orangered;
+}
+
+.name {
+    font-family: cursive;
+    text-align: start;
+    color: lightcyan;
+    
+}
+
+.name a {
+    text-decoration: none;
+}
+
+.name a button {
+    padding: 15px;
+    margin: 5px;
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    border: 3px solid orangered;
+}
+
+.name a button:hover {
+    color: black;
+    background-color: rgba(240, 170, 40, 0.75);
+}
+
+.name a button:active {
+    background-color: red;
+}
+
+
+h2 span {
+    position: relative;
+    display: inline-block;
+    color: orangered;
+    height: 1.25em;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+
+h2 span span {
+    display: block;
+    animation: animatewords 10s infinite ease-in-out;
+}
+
+@keyframes animatewords {
+    0% {
+        transform: translateY(0%);
+    }
+
+    25% {
+        transform: translateY(-100%);
+    }
+
+    50% {
+        transform: translateY(-200%);
+    }
+
+    75% {
+        transform: translateY(-300%);
+    }
+
+    100% {
+        transform: translateY(-400%);
+    }
+}
+
+.about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(185, 185, 185, 0.2);
+    border-radius: 50px;
+}
+
+.about-img {
+    border-radius: 50px;
+}
+
+.about-img img {
+    border-radius: 50px;
+}
+
+.about-info h2 {
+    font-size: 25px;
+}
+
+.about-info h4 {
+    font-size: 20px;
+}
+
+.about-info h5 {
+    font-size: 17px;
+}
+
+.download-cv {
+    margin-top: 20px;
+    text-align: start;
+}
+
+.download-cv a {
+    background-color: orange;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 3px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid orangered;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.download-cv a:hover {
+    background-color: rgba(240, 170, 40, 0.75);
+    color: black;
+}
+
+.download-cv a:active {
+    background-color: red;
+}
+
+
+.info {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.skills {
+    font-family: 'ADLaM Display';
+    margin-left: 100px;
+    font-size: 30px;
+    width: 100px;
+    border-bottom: 3px solid orangered;
+    
+}
+
+.skills-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    background-color: rgba(185, 185, 185, 0.2);
+    border-radius: 10px;
+}
+
+.skills-one h2 {
+    padding-right: 200px;
+}
+
+
+.skills-one div {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+
+.skills-one div:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.projects {
+    font-family: 'ADLaM Display';
+    margin-left: 100px;
+    font-size: 30px;
+    width: 145px;
+    border-bottom: 3px solid orangered;
+}
+
+
+.project {
+    height: 150px;
+    width: 200px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+    text-align: center;
+    gap: 10px;
+}
+
+.project-all {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-all div:hover {
+    background-color: orange;
+}
+
+
+.education {
+    font-family: 'ADLaM Display';
+    margin-left: 100px;
+    font-size: 30px;
+    width: 170px;
+    border-bottom: 3px solid orangered;
+}
+
+.all{
+    margin: 20px;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.school {
+    margin-top: 40px;
+    margin-left: 500px;
+    border: 3px solid orangered;
+    border-radius: 50px;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.school:hover {
+    background-color: rgba(240, 170, 40, 0.75);
+
+}
+
+#achievements{
+    font-family: 'ADLaM Display';
+    margin: 0 100px 30px 100px;
+    font-size: 30px;
+    width: 230px;
+    border-bottom: 3px solid orangered;
+}
+
+.achiv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(185, 185, 185, 0.2);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.achiv div {
+    height: 300px;
+    width: 400px;
+    border: 3px solid orangered;
+}
+
+.achiv div:hover {
+    filter: brightness(30%);
+    cursor: pointer;
+}
+
+.achiv div img {
+    height: 300px;
+    width: 400px;
+}
+
+#hobbies{
+    font-family: 'ADLaM Display';
+    margin-left: 100px;
+    font-size: 30px;
+    width: 280px;
+    border-bottom: 3px solid orangered;
+}
+
+.hob {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(185, 185, 185, 0.2);
+    border-radius: 50px;
+    margin: 30px 0;
+}
+
+.hob div {
+    border: 2px solid orangered;
+    height: 40px;
+    width: 150px;
+    font-size:20px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.hob div:hover {
+    background-color: orange;
+}
+
+
+
+
+
+footer {
+    position: fixed bottom 0px;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+.pad {
+    margin-top: 10px;
+    padding: 10px;
+
+}
